@@ -1,0 +1,17 @@
+#pokemonContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pokemonItem{
+    width: 25%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 0.5rem;
+}
