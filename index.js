@@ -6,7 +6,7 @@ formulario.addEventListener('submit', (event) => {
   event.preventDefault();
   pokemonCard.innerHTML = '';
   for (let i = 1; i <= numberInput.value; i++) {
-    const id = Math.floor(Math.random() * (0 - 150) + 150);
+    const id = Math.floor(Math.random() * (0 - 1000) + 1000);
 
     getPokemon(id);
   }
